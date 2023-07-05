@@ -62,7 +62,7 @@ def withdraw(privatekey):
 def main():
     for privatekey in privatekeys:
         withdraw(privatekey)
-    print('Успешный вывод с Zksync Era в Ethereum c ' + str(len(privatekeys)) + ' кошельков через официальный бридж')
+    print('Успешный свапнуто gETH в tBNB c ' + str(len(privatekeys)) + ' кошельков через официальный бридж')
 
 if __name__ == '__main__':
     main()
