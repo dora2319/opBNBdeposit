@@ -1,4 +1,4 @@
-# opBNBdeposit
+# opBNB Deposit
 
 Для работы скрипта потребуется gETH или tBNB 
 Используем два скрипта.
@@ -26,5 +26,7 @@ wal_sleep_max = 120    # максимальная задержка между к
 DONATE на тесты скриптов (evm) : 0xe7b5cb9f137C663D07EF2539678392650c8e3645
 
 Telegram channel https://t.me/ildar_scripts
+
 Telegram https://t.me/ildarzf
+
 Telegram chat https://t.me/ildarscriptschat
