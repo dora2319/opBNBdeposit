@@ -51,7 +51,7 @@ def withdraw(privatekey):
         print(f'Transaction hash: https://testnet.bscscan.com/tx/{hash_.hex()}')
         print('Waiting for receipt...')
         tx_receipt = w3.eth.wait_for_transaction_receipt(hash_, timeout=140)
-        print('Отправил ETH: ' + str(aw_round/10**18))
+        print('Отправил BNB: ' + str(aw_round/10**18))
         sleep_indicator(random.randint(wal_sleep_min, wal_sleep_max))
     except Exception as e:
         print(f'ADDRESS: {address}')
